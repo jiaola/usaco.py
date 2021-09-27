@@ -9,6 +9,8 @@ s = input()
 for i in range(n):
     ss = set()
     for j in range(n - i):
+        if s[j:j + i + 1] in ss:
+            break
         ss.add(s[j:j + i + 1])
     if len(ss) == n - i:
         print(i + 1)
