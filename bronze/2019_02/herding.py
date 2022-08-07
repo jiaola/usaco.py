@@ -15,5 +15,3 @@ elif d1 == 2 or d2 == 2:
 else:
     print(2)
 print(max(d1, d2) - 1)
-
-
